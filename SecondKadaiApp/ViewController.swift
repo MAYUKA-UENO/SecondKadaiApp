@@ -1,19 +1,21 @@
-//
-//  ViewController.swift
-//  SecondKadaiApp
-//
-//  Created by まゆか on 2022/03/21.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var NameField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let namingViewController:NamingViewController = segue.destination as! NamingViewController
+        namingViewController.AcceptName = NameField.text!//次ページの「AcceptName」に本ページのUITextFieldの「NameField」を代入
 
-
+    }
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue)//戻るボタン設定
+    {}
 }
 

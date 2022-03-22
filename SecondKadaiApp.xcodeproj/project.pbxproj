@@ -13,6 +13,7 @@
 		C6EE8F8E27E819810059A9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EE8F8C27E819810059A9CB /* Main.storyboard */; };
 		C6EE8F9027E819830059A9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EE8F8F27E819830059A9CB /* Assets.xcassets */; };
 		C6EE8F9327E819830059A9CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6EE8F9127E819830059A9CB /* LaunchScreen.storyboard */; };
+		C6EE8F9B27E81C410059A9CB /* NamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EE8F9A27E81C410059A9CB /* NamingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C6EE8F8F27E819830059A9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EE8F9227E819830059A9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EE8F9427E819830059A9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EE8F9A27E81C410059A9CB /* NamingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C6EE8F8627E819810059A9CB /* AppDelegate.swift */,
 				C6EE8F8827E819810059A9CB /* SceneDelegate.swift */,
 				C6EE8F8A27E819810059A9CB /* ViewController.swift */,
+				C6EE8F9A27E81C410059A9CB /* NamingViewController.swift */,
 				C6EE8F8C27E819810059A9CB /* Main.storyboard */,
 				C6EE8F8F27E819830059A9CB /* Assets.xcassets */,
 				C6EE8F9127E819830059A9CB /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				C6EE8F8B27E819810059A9CB /* ViewController.swift in Sources */,
 				C6EE8F8727E819810059A9CB /* AppDelegate.swift in Sources */,
+				C6EE8F9B27E81C410059A9CB /* NamingViewController.swift in Sources */,
 				C6EE8F8927E819810059A9CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
